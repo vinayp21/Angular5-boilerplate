@@ -9,8 +9,8 @@ export class AppComponent {
     @Input() data;
     title = 'app';
     myObj = {
-        test: 'success'
-    };
+      test: 'success'
+    }
     receiveChildData(data) {
         alert('received ' + data);
     }
